@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header id="header">
+    <img src="logo.png" alt="Logo" id="header-img">
+    <nav id="nav-bar">
+      <ul>
+        <!-- Updated href values to link to corresponding sections by their id -->
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#hero" class="nav-link">About</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Video -->
+  <section id="hero">
+    <h1>Welcome to Our Product</h1>
+    <p>Discover the amazing features of our product.</p>
+    <video id="video" controls>
+      <source src="product-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features">
+    <h2>Our Features</h2>
+    <div class="feature-box">
+      <div class="feature">
+        <h3>Feature 1</h3>
+        <p>Description of feature 1.</p>
+      </div>
+      <div class="feature">
+        <h3>Feature 2</h3>
+        <p>Description of feature 2.</p>
+      </div>
+      <div class="feature">
+        <h3>Feature 3</h3>
+        <p>Description of feature 3.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form Section -->
+  <section id="contact">
+    <h2>Subscribe for Updates</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required name="email">
+      <input type="submit" id="submit" value="Submit">
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2024 Product Landing Page</p>
+  </footer>
+
+</body>
+</html>
